@@ -4,7 +4,7 @@ read_time: true
 show_date: true
 title: "Particle Swarm Optimization"
 date: 2022-03-18
-img: posts/20220318/main2.png
+img: posts/20220318/main2.jpg
 tags: [Metaheuristic]
 category: review
 author: Koptimizer
