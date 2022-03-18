@@ -6,6 +6,7 @@
 
 # Koptimizer.tech
 - 본 repo는 [Adam Blog 2.0](http://jekyllthemes.org/themes/adam-blog-2/)을 하드포크하였으며, [MIT License](https://ko.wikipedia.org/wiki/MIT_%ED%97%88%EA%B0%80%EC%84%9C)를 갖습니다.
+- koptimizer로 게시된 모든 글의 저작권은 저에게 있습니다.
 </br>
 
 ### 블로그 관리 핵심파일
