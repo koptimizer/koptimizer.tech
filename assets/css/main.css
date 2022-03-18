@@ -18,9 +18,9 @@ html {
   --github:       #333;
   --font1: sans-serif, 'Lora', charter, Georgia, Cambria, 'Times New Roman', Times, sans-serif, 'IBM Plex Sans KR';/* body text */
   --font2: sans-serif, 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'IBM Plex Sans KR'; /* headers and titles   */
-  --font1-light:      400;
-  --font1-regular:    400;
-  --font1-bold:       600;
+  --font1-light:      200;
+  --font1-regular:    200;
+  --font1-bold:       400;
   --font2-light:      200;
   --font2-regular:    400;
   --font2-bold:       700;
