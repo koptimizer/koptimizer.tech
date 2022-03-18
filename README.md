@@ -1,6 +1,6 @@
 <p align = 'center'>
    <img src="https://github.com/koptimizer/koptimizer.tech/blob/main/assets/img/icons/github_fill.svg" width="500" height="500"><br>
-   <b> www.koptimizer.tech </b>
+   <b> https://koptimizer.tech </b>
 </p>
 </br>
 
