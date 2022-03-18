@@ -15,7 +15,7 @@ mathjax: yes
 입자 군집 최적화(particle swarm optimization)는 [Kennedy and Ebergart(1995)](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=488968&casa_token=sAtJffqCtHcAAAAA:Zrxnhv4yrmgdc0P6R61_ebomVMzFXcR0pYounK8SqDT2lvat2OYq8KGuaANbDhCobhdaH2b8LQ&tag=1)에서 제안되었으며, 새나 벌레 등이 무리를 지어 행동하는 패턴에서 착안된 메타휴리스틱 알고리즘이다. 이하 PSO라고 표현하겠다.
 
 메타휴리스틱은 [다른 글]()에서도 설명했듯이, 자연이나 물리법칙에서 발견되는 "크고 아름다운 현상"들을 기저로 한다. PSO에서 사용되는 크고 아름다운 현상이란 무엇일까? 우리 함께 한국의 대표적인 도시형 조류, 비둘기 무리를 생각해보자. 보통 다음과 같을 것이다.
-<center><img src = ".assets/img/posts/20220318/pig.jpg"></center>
+<center><img src = "./assets/img/posts/20220318/pig.jpg"></center>
 
 비둘기 무리는 왜 이렇게 역전에 모여드는 것일까? 비둘기는 원래 절벽에서 서식하는 동물이다. 역전은 보통 탁 트인 광장과 약간의 녹지를 함께 가지고 있고, 주변에는 상권이 발달하여 높은 건물이 많다. 유동인구도 많으므로 쓰레기가 많이 발생하여 비둘기가 간접적으로 먹이를 획득할 가능성도 높다. 비둘기에게는 적절한 서식지인 것이다.
 
