@@ -1,0 +1,34 @@
+
+
+[   
+      
+  {
+  "tag" : "Machine Learning",
+  "posts" : [
+      
+      "./wikipedea.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "Paper Review",
+  "posts" : [
+      
+      "./wikipedea.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "Reinforcement Learning",
+  "posts" : [
+      
+      "./wikipedea.html"
+      
+    ]
+  } 
+    
+]
