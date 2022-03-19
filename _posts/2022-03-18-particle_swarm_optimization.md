@@ -16,8 +16,8 @@ mathjax: yes
 
 메타휴리스틱은 [다른 글](/metaheuristics.html)에서도 설명했듯이, 자연이나 물리법칙에서 발견되는 "크고 아름다운 현상"들을 기저로 한다. PSO에서 사용되는 크고 아름다운 현상이란 무엇일까? 우리 함께 한국의 대표적인 도시형 조류, 비둘기 무리를 생각해보자. 보통 다음과 같을 것이다.
 <center>
-  <img src = "./assets/img/posts/20220318/pig.jpg"></br>
-  <small>(역전에 삼삼오오 모인 비둘기 무리는 징그럽기까지 하다.)</small>
+  <img src = "./assets/img/posts/20220318/pig.jpg">
+  <small>역전에 삼삼오오 모인 비둘기 무리는 징그럽기까지 하다.</small>
 </center>
 
 
