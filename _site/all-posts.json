@@ -1,7 +1,11 @@
 {
   "posts" : [
     
-    "./wikipedea.html"
+    "./wikipedia.html",
+    
+    "./particle_swarm_optimization.html",
+    
+    "./metaheuristics.html"
     
   ]
 }

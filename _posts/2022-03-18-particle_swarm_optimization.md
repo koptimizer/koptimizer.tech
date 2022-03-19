@@ -4,7 +4,7 @@ read_time: true
 show_date: true
 title: "Particle Swarm Optimization"
 date: 2022-03-18
-img: posts/20220318/main2.jpg
+img: posts/20220318/main.jpg
 tags: [Metaheuristic]
 category: review
 author: Koptimizer
@@ -14,7 +14,7 @@ mathjax: yes
 
 입자 군집 최적화(particle swarm optimization)는 [Kennedy and Ebergart(1995)](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=488968&casa_token=sAtJffqCtHcAAAAA:Zrxnhv4yrmgdc0P6R61_ebomVMzFXcR0pYounK8SqDT2lvat2OYq8KGuaANbDhCobhdaH2b8LQ&tag=1)에서 제안되었으며, 새나 벌레 등이 무리를 지어 행동하는 패턴에서 착안된 메타휴리스틱 알고리즘이다. 이하 PSO라고 표현하겠다.
 
-메타휴리스틱은 [다른 글]()에서도 설명했듯이, 자연이나 물리법칙에서 발견되는 "크고 아름다운 현상"들을 기저로 한다. PSO에서 사용되는 크고 아름다운 현상이란 무엇일까? 우리 함께 한국의 대표적인 도시형 조류, 비둘기 무리를 생각해보자. 보통 다음과 같을 것이다.
+메타휴리스틱은 [다른 글](/metaheuristics.html)에서도 설명했듯이, 자연이나 물리법칙에서 발견되는 "크고 아름다운 현상"들을 기저로 한다. PSO에서 사용되는 크고 아름다운 현상이란 무엇일까? 우리 함께 한국의 대표적인 도시형 조류, 비둘기 무리를 생각해보자. 보통 다음과 같을 것이다.
 <center>
   <img src = "./assets/img/posts/20220318/pig.jpg"></br>
   <small>(역전에 삼삼오오 모인 비둘기 무리는 징그럽기까지 하다.)</small>
@@ -31,6 +31,9 @@ PSO는 이처럼 개인(particle)과 무리(swarm) 상호작용을 이용하여 
 
 ## 어떻게 작동하는가?
 
-단일의 해 x_i로 이루어진 해집합 \P
+단일의 해 x_i로 이루어진 해집합 \P...
+작성중...
 
+## 프로그래밍적 구현
+작성중...
 

@@ -16,11 +16,11 @@ html {
   --background:   #ffffff;
   --shadow:       rgba(32,30,30,.3);
   --github:       #333;
-  --font1: 'Lora', charter, Georgia, Cambria, 'Times New Roman', Times, serif, IBM Plex Sans KR;/* body text */
-  --font2: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* headers and titles   */
-  --font1-light:      400;
-  --font1-regular:    400;
-  --font1-bold:       600;
+  --font1: sans-serif, 'Lora', charter, Georgia, Cambria, 'Times New Roman', Times, sans-serif, 'IBM Plex Sans KR';/* body text */
+  --font2: sans-serif, 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'IBM Plex Sans KR'; /* headers and titles   */
+  --font1-light:      200;
+  --font1-regular:    200;
+  --font1-bold:       400;
   --font2-light:      200;
   --font2-regular:    400;
   --font2-bold:       700;
@@ -1714,10 +1714,11 @@ img + small, img + br + small {
     margin-right: 15px;
     margin-left: 15px;
     width: 380px;
+    text-align: center;
 }
 .author-box .author-img {
   width: 120px;
-  margin-right: 30px;
+  /*margin-right: 30px;*/
   -webkit-border-radius: 100%;
           border-radius: 100%;
   vertical-align: middle;

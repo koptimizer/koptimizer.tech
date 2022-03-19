@@ -1,12 +1,14 @@
 <p align = 'center'>
-   <img src="https://github.com/koptimizer/koptimizer.tech/blob/main/assets/img/icons/github_fill.svg" width="500" height="500"><br>
-   <b> https://koptimizer.tech </b>
+   <img src="https://github.com/koptimizer/koptimizer.tech/blob/main/assets/img/branding/logo.png"><br>
+   <b> http://koptimizer.tech </b>
 </p>
 </br>
 
-# Koptimizer.tech
-- 본 repo는 [Adam Blog 2.0](http://jekyllthemes.org/themes/adam-blog-2/)을 하드포크하였으며, [MIT License](https://ko.wikipedia.org/wiki/MIT_%ED%97%88%EA%B0%80%EC%84%9C)를 갖습니다.
+# koptimizer.tech
+- koptimizer.tech는 공부하거나 경험했던 AI/OR의 지식들을 공유하는 테크 블로그입니다.
+- 본 repo는 [Adam Blog 2.0](http://jekyllthemes.org/themes/adam-blog-2/)을 하드포크하여 개설되었습니다.
 - koptimizer로 게시된 모든 글의 저작권은 저에게 있습니다.
+- 잘 정리한 지식들이 언젠가는 나를 포함한 누군가에게 도움을 줄 수 있기를 바랍니다.
 </br>
 
 ### 블로그 관리 핵심파일
@@ -29,3 +31,7 @@
 - serve를 실행하면 localhost:4000에서 자신이 작업하는 홈페이지의 모습을 바로 확인할 수 있습니다.
 - 모든 작업이 완료되었다면 ```commit -> push (-> pull reqeust)```을 해서 원격 레포지토리에 업로드하시면 됩니다.
 - 실제 웹으로 적용되기 까지 1~30분 가량의 시간이 소요됩니다.
+
+### Others
+- main: #326273
+- sub: #879dab

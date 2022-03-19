@@ -1,9 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-18T18:00:18+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Koptimizer.tech</title><subtitle>Exploration &amp; Exploitation</subtitle><author><name>Koptimizer</name></author><entry><title type="html">Paper Review - Can Wikipedia Help Offline Reinforcement Learning?</title><link href="http://localhost:4000/wikipedea.html" rel="alternate" type="text/html" title="Paper Review - Can Wikipedia Help Offline Reinforcement Learning?" /><published>2022-03-18T00:00:00+09:00</published><updated>2022-03-18T00:00:00+09:00</updated><id>http://localhost:4000/wikipedea</id><content type="html" xml:base="http://localhost:4000/wikipedea.html"><![CDATA[<p>22년 3월 기준으로 최신 RL 논문 중 가장 충격적인 논문을 한 편 뽑으라고 하면 단언코 이 논문을 고를 수 있을 것이다.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-19T19:05:50+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Koptimizer.tech</title><subtitle>Exploration &amp; Exploitation</subtitle><author><name>Koptimizer</name></author><entry><title type="html">Paper Review - Can Wikipedia Help Offline Reinforcement Learning?</title><link href="http://localhost:4000/wikipedia.html" rel="alternate" type="text/html" title="Paper Review - Can Wikipedia Help Offline Reinforcement Learning?" /><published>2022-03-19T00:00:00+09:00</published><updated>2022-03-19T00:00:00+09:00</updated><id>http://localhost:4000/wikipedia</id><content type="html" xml:base="http://localhost:4000/wikipedia.html"><![CDATA[<p>22년 3월 기준으로, 최신 RL 논문 중 가장 충격적인 논문을 한 편 뽑으라고 하면 단언코 이 논문을 고를 수 있을 것이다.</p>
 
-<p>can wikipedia help offline reinforcement learning?</p>
+<p>Can wikipedia help offline reinforcement learning?</p>
 
 <p>abstract</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Fine-tuning reinforcement learning (RL) models has been challenging because of a lack of large scale off-the-shelf datasets as well as high variance in transferability among different environments. Recent work has looked at tackling offline RL from the perspective of sequence modeling with improved results as result of the introduction of the Transformer architecture. However, when the model is trained from scratch, it suffers from slow convergence speeds. In this paper, we look to take advantage of this formulation of reinforcement learning as sequence modeling and investigate the transferability of pre-trained sequence models on other domains (vision, language) when finetuned on offline RL tasks (control, games). To this end, we also propose techniques to improve transfer between these domains. Results show consistent performance gains in terms of both convergence speed and reward on a variety of environments, accelerating training by 3-6x and achieving state-of-the-art performance in a variety of tasks using Wikipedia-pretrained and GPT2 language models. We hope that this work not only brings light to the potentials of leveraging generic sequence modeling techniques and pre-trained models for RL, but also inspires future work on sharing knowledge between generative modeling tasks of completely different domains.
-</code></pre></div></div>
+<tweet> Fine-tuning reinforcement learning (RL) models has been challenging because of a lack of large scale off-the-shelf datasets as well as high variance in transferability among different environments. Recent work has looked at tackling offline RL from the perspective of sequence modeling with improved results as result of the introduction of the Transformer architecture. However, when the model is trained from scratch, it suffers from slow convergence speeds. In this paper, we look to take advantage of this formulation of reinforcement learning as sequence modeling and investigate the transferability of pre-trained sequence models on other domains (vision, language) when finetuned on offline RL tasks (control, games). To this end, we also propose techniques to improve transfer between these domains. Results show consistent performance gains in terms of both convergence speed and reward on a variety of environments, accelerating training by 3-6x and achieving state-of-the-art performance in a variety of tasks using Wikipedia-pretrained and GPT2 language models. We hope that this work not only brings light to the potentials of leveraging generic sequence modeling techniques and pre-trained models for RL, but also inspires future work on sharing knowledge between generative modeling tasks of completely different domains.
+</tweet>
 
-<p>작성중</p>]]></content><author><name>Koptimizer</name></author><category term="opinion" /><category term="Reinforcement Learning" /><category term="Machine Learning" /><category term="Paper Review" /><summary type="html"><![CDATA[Fine-tuning reinforcement learning (RL) models has been challenging because of a lack of large scale off-the-shelf datasets as well as high variance in transferability among different environments.]]></summary></entry></feed>
+<p>작성중…</p>]]></content><author><name>Koptimizer</name></author><category term="review" /><category term="Reinforcement Learning" /><category term="Machine Learning" /><category term="Paper Review" /><summary type="html"><![CDATA[Fine-tuning reinforcement learning (RL) models has been challenging because of a lack of large scale off-the-shelf datasets as well as high variance in transferability among different environments.]]></summary></entry><entry><title type="html">Particle Swarm Optimization</title><link href="http://localhost:4000/particle_swarm_optimization.html" rel="alternate" type="text/html" title="Particle Swarm Optimization" /><published>2022-03-18T00:00:00+09:00</published><updated>2022-03-18T00:00:00+09:00</updated><id>http://localhost:4000/particle_swarm_optimization</id><content type="html" xml:base="http://localhost:4000/particle_swarm_optimization.html"><![CDATA[<p>입자 군집 최적화(particle swarm optimization)는 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=488968&amp;casa_token=sAtJffqCtHcAAAAA:Zrxnhv4yrmgdc0P6R61_ebomVMzFXcR0pYounK8SqDT2lvat2OYq8KGuaANbDhCobhdaH2b8LQ&amp;tag=1">Kennedy and Ebergart(1995)</a>에서 제안되었으며, 새나 벌레 등이 무리를 지어 행동하는 패턴에서 착안된 메타휴리스틱 알고리즘이다. 이하 PSO라고 표현하겠다.</p>
+
+<p>메타휴리스틱은 <a href="/metaheuristics.html">다른 글</a>에서도 설명했듯이, 자연이나 물리법칙에서 발견되는 “크고 아름다운 현상”들을 기저로 한다. PSO에서 사용되는 크고 아름다운 현상이란 무엇일까? 우리 함께 한국의 대표적인 도시형 조류, 비둘기 무리를 생각해보자. 보통 다음과 같을 것이다.</p>
+<center>
+  <img src="./assets/img/posts/20220318/pig.jpg" />&lt;/br&gt;
+  <small>(역전에 삼삼오오 모인 비둘기 무리는 징그럽기까지 하다.)</small>
+</center>
+
+<p>비둘기 무리는 왜 이렇게 역전에 모여드는 것일까? 비둘기는 원래 절벽에서 서식하는 동물이다. 역전은 보통 탁 트인 광장과 약간의 녹지를 함께 가지고 있고, 주변에는 상권이 발달하여 높은 건물이 많다. 유동인구도 많으므로 쓰레기가 많이 발생하여 비둘기가 간접적으로 먹이를 획득할 가능성도 높다. 비둘기에게는 적절한 서식지인 것이다.</p>
+
+<p>그렇다면 비둘기는 서로 말을 할줄 아는 것도 아닌데 어떻게 역전에 집결하는 것일까? 새들은 생존을 위한 진화로 무리를 형성하게 되었기 때문에 개인의 행동이 무리 전체에 영향을 끼친다. 비둘기 무리 옆에서 땅을 발로 꽝 박차면 가장 가까운 곳에 있던 비둘기부터 하나 둘씩 날아올라 모든 비둘기가 날아오른다. 각각의 비둘기는 내 주변의 많은 비둘기 형제가 급하게 날아올랐으니 위험한 상황이 발생했다고 생각하고 날아오른 것인데, 이것이 연쇄적으로 발생하여 모든 비둘기가 날아오르게 한 것이다. 역전에 집결할 수 있었던 것 또한, 서식지로 적합한 환경을 찾아 도착한 일부 비둘기들 때문에 다른 비둘기도 모여들게 되었고, 결과적으로 역전에 이 세상 모든 비둘기가 다 모인 것 같은 모습이 된 것이다.</p>
+
+<p>PSO는 이처럼 개인(particle)과 무리(swarm) 상호작용을 이용하여 최적해를 찾아나가는 방법이다. PSO의 장점은 군집 지능(swarm intelligence)에서 발현되는 강력한 수렴력을 지녔으면서 지역 최적해의 교착을 피할 수 있다는 점이다.</p>
+
+<p>이제 PSO는 어떻게 작동되는 것인지, 어떻게 쓰이는 것인지 심층적으로 살펴보자.</p>
+
+<h2 id="어떻게-작동하는가">어떻게 작동하는가?</h2>
+
+<p>단일의 해 x_i로 이루어진 해집합 \P…
+작성중…</p>
+
+<h2 id="프로그래밍적-구현">프로그래밍적 구현</h2>
+<p>작성중…</p>]]></content><author><name>Koptimizer</name></author><category term="review" /><category term="Metaheuristic" /><summary type="html"><![CDATA[입자 군집 최적화]]></summary></entry><entry><title type="html">What is the metaheuristic?</title><link href="http://localhost:4000/metaheuristics.html" rel="alternate" type="text/html" title="What is the metaheuristic?" /><published>2022-03-17T00:00:00+09:00</published><updated>2022-03-17T00:00:00+09:00</updated><id>http://localhost:4000/metaheuristics</id><content type="html" xml:base="http://localhost:4000/metaheuristics.html"><![CDATA[<p>메타휴리스틱(metaheuristics)은 최적화 방법론의 일종이며, 휴리스틱의 하위 분과이다. 메타휴리스틱의 상위 개념인 휴리스틱에 대해 먼저 알아보자면, 휴리스틱이란 다음과 같이 이야기할 수 있다.</p>
+<tweet>불충분한 정보, 시간에 의해 합리적인 판단을 할 수 없거나, 체계적인 판단이 굳이 필요하지 않은 상황에서 기존의 경험과 직관을 이용해 만족할 만한 결과를 빠르게 탐색하는 어림짐작의 방법</tweet>
+
+<p>즉, 휴리스틱은 “맛집 찾기”와 비슷하다. 맛집 찾기라는 과업은 굳이 체계적인 판단을 필요로 하지 않는다. 한달 전에 맛있게 먹었던 라멘 가게를 기억해서 재방문할 수도 있는 것이고, 길거리를 오다니며 발견했던 맛집 포스의 레스토랑을 기억했다가 시도를 해볼 수도 있는 것이다. 이렇게 선택된 맛집이 항상 최선의 맛을 보장하지는 않겠지만, 적절한 수준의 만족감을 줄 것이라고 기대할 수 있다. 이런게 휴리스틱이다. 그러나 휴리스틱은 정보와 경험이 특정 문제에 의존성이 높다는 문제가 있다. 예를 들어서 당신이 지역에서 제일 가는 맛잘알(맛집을 잘 알고 있는 사람)이라고 가정해보자. 그런 당신이 데이트를 위해 “분위기 좋은 바”를 찾고자 한다면 그 간에 쌓아왔던 맛집 찾기에 대한 정보와 경험을 사용할 수 없게된다.</p>
+
+<p>메타휴리스틱은 이러한 휴리스틱의 한계를 해결한다. 메타휴리스틱은 meta라는 접두사가 휴리스틱 앞에 붙어 있는데, meta는 X 를 뛰어넘는, 더 높은 수준의 X 라는 뜻이다. 메타휴리스틱은 특정 문제가 갖는 정보에 상대적으로 덜 구속되며 다양한 문제에 적용될 수 있도록 한 상위수준의 휴리스틱 기법이다. 그렇다면 메타휴리스틱은 어떻게 작동하길래 휴리스틱의 한계를 해결하는 것일까?</p>
+
+<h2 id="메타휴리스틱은-어떻게-작동하는가">메타휴리스틱은 어떻게 작동하는가?</h2>
+<p>앞서 설명했던 “맛집 찾기”와 “분위기 좋은 바 찾기” 같은 “XX 찾기 문제”를 공통적으로 쉽게 해결할 수 있는 방법은 역시 네이버에 검색해보는 것이다. 네이버는 XX 찾기 문제에서 아주 강력한 아이디어이다. 네이버에서 제공하는 특정 XX업체의 별점과 내 위치에서의 거리를 저울질해서 결정한다면 그게 차량 정비소가 되었든, 미용실이 되었든 만족할 만한 XX를 찾을 수 있다. 이렇듯 메타휴리스틱은 현실의 문제를 해결하기 위해 다양한 영역으로부터 강력한 아이디어를 얻었는데 보통은 <b>자연이나 물리 법칙 등에서 발견되는 “크고 아름다운 현상”을 기저로 한다</b>. 크고 아름다운 현상의 예를 들어보자면 다윈의 진화론과 멘델의 유전법칙, 뻐꾸기의 탁란, 새나 벌레의 떼비행, 늑대 무리의 사회적 계층과 사냥방식 등이 있다. 이러한 현상들은 수백, 수천년동안 자연에서 유지되어오면서 각 종족의 번영과 생존을 책임져왔다. 오랜시간동안 자연에서 적용되어 온 이 현상들을 모방하여 최적해를 탐색하는 과정에 적용한 것이 바로 메타휴리스틱이다.</p>
+
+<h2 id="메타휴리스틱의-종류">메타휴리스틱의 종류</h2>
+<center><img src="./assets/img/posts/20220317/type.png" /></center>
+<p>연구자들과는 조금씩 다르지만 해집단을 기반으로 운용되는 메타휴리스틱은 위와 같이 크게 4가지로 분류된다. 각 분류는 비슷한 근원에서 모사되었기 때문에 유사한 특성을 갖는다. 진화적 알고리즘(evolutionary algorithm)은 기본적으로 다윈의 진화론과 멘델의 유전법칙을 사용한다. 염색체처럼 이산적으로 표현되는 해 표현법이 주로 사용되기 때문에 조합 최적화 문제에서 효과적으로 사용된다. 군집 지능 알고리즘(swarm intelligence algorithm)은 분산된 행동을 하는 개체들을 통해 발생되는 지능적인 전체 행동을 모사한다. 분산된 개체들이 연속적으로 표현된 광활한 해 공간을 효과적으로 탐색하기 때문에 지역 최적해 탈출에 효과적이고, 연속형 해를 사용하는 최적화 문제에서 우수한 결과를 보인다. 물리 기반 알고리즘(physics-based algorithm)은 이미 과학적으로 증명된 물리법칙을 이용하기 때문에 비교적 수렴 속도가 비교적 빠르다는 장점이 있다. 최근에는 다른 기법과 결합되어 하이브리드 최적화 기법으로 응용되는 식으로 자주 사용된다. 자연 발견적 알고리즘(bio-inspired algorithm)은 군집 지능 알고리즘과 비슷하게 자연에서 발견된 아이디어를 사용한다. 개체와 군집 사이의 상호작용을 이용하는 군집 지능 알고리즘과는 다르게 단일 개체의 행동 패턴에 대해서 모사하므로 구현이 간단하다는 장점이 있다.</p>
+
+<p>현재까지 발표된 메타휴리스틱 알고리즘은 100여가지가 넘는다. 이렇게 많은 종류의 메타휴리스틱 알고리즘이 필요할까? no free lunch theorem에 의하면 특정한 문제에 최적화된 알고리즘은 다른 문제에서는 그렇지 않다. 그렇기 때문에 많은 메타휴리스틱 알고리즘을 알고 있다면, 주어진 문제를 더 효과적으로 해결할 수 있음을 의미한다. 그렇다고 모든 메타휴리스틱 알고리즘을 알고 있는 것은 비효율적이겠지만…</p>
+
+<h2 id="메타휴리스틱은-왜-매력적인가">메타휴리스틱은 왜 매력적인가?</h2>
+<p>메타휴리스틱은 polynomial time안에 해결되지 않는 NP 문제에 대해 아주 효과적인 근사적 해법이다. 조금 풀어서 설명하자면… NP 문제는 풀 수는 있는 문제이나 문제의 크기가 조금만 커져도 풀이에 필요한 시간이 기하급수적(거의 우주의 모든 원소의 갯수만큼)으로 늘어나는 문제이다. 또, gradient를 사용하지 않기 때문에 문제의 제약에서 굉장히 자유로우며 gradient-based method에서 발생되는 지역 최적해 교착 문제가 없다. 구현이 쉽다는 것도 꽤나 매력적인 부분이다.</p>
+<center><img src="./assets/img/posts/20220317/tsp.png" /><small>NP 문제의 대표적 예시인 TSP, 각 점을 모두 잇는 최소 길이의 한붓그리기를 하면 된다...!</small></center>
+
+<p>물론 장점만 있는 것은 아니다. 메타휴리스틱은 당연하게도 최적해를 보장하지 않는다. 임의 확률을 이용하는 경우가 많아서 각 시행마다 성능 편차가 존재하고, 하이퍼파라미터에 대한 의존성이 높아서 튜닝에 대한 노력도 필요하다. 당신이 마주한 문제의 특성을 잘 분석해보고 메타휴리스틱을 사용할지 결정하면 좋을 것이다.</p>
+
+<h2 id="메타휴리스틱-적용의-예시">메타휴리스틱 적용의 예시</h2>
+<p>적용의 예시는 무궁무진하지만 직접 했던 프로젝트를 한 가지만 언급해보자면 메타휴리스틱 알고리즘의 일종인 뻐꾸기 탐색법(cuckoo search)를 이용하여 정밀가공부품 제조회사인 동X에 공정계획 최적화 기법을 제안했던 경험이 있다. 공정계획은 간단하게 “어떤 제품을 어떠한 기계에서 어떠한 순서대로 생산하는가?”를 결정하는 문제로써, 이는 생산성과 직결되기 때문에 제조 현상에는 큰 이슈 중에 하나이다. 공정계획문제를 공학적으로 접근하기 위해 일반화한 형태를 FJSP(flexible job-shop scheduling problem)이라고 하는데, FJSP는 매우 복잡한 조합최적화 문제이자 NP-complete에 해당하기 때문에 일반적인 최적화 방법으로는 접근하기 까다롭다는 특징을 갖는다.</p>
+<center><img src="./assets/img/posts/20220317/fjsp.png" /><small>FJSP의 솔루션을 간트차트로 표현한 예시</small></center>
+
+<p>이를 해결하기 위해서 뻐꾸기 탐색법을 사용했다. 원래는 이산적 해 표현에 강한 유전 알고리즘을 사용하고자 하였으나, 유전 알고리즘은 구현할때 고려해야하는 사항이 많다. 그래서 비교적 간단하게 구현할 수 있는 자연 발견적 알고리즘의 일종인 뻐구기 탐색법을 선택하게 되었고, 이산적인 해 표현에 적용할 수 있도록 <a href="https://link.springer.com/article/10.1007/s00521-013-1402-2">이산적 뻐꾸기 탐색법 논문</a>을 참고하여 구현하였다. 구현 결과에서도 휴리스틱하게 최적화한 공정계획보다 뻐꾸기 탐색법의 공정계획이 더 좋은 성능을 보였다.</p>
+<center><img src="./assets/img/posts/20220317/conclusion.png" /><small>기존의 휴리스틱하게 최적화된 공정계획(상), 뻐꾸기 탐색법으로 최적화된 공정계획(하).</small></center>
+
+<p>구체적인 발표자료는 <a href="https://github.com/koptimizer/DCS_for_FJSP/blob/main/DCS_for_FJSP.pdf">여기</a>를 참고해보면 좋을 것 같다.</p>
+
+<h2 id="메타휴리스틱의-미래">메타휴리스틱의 미래</h2>
+<p>메타휴리스틱은 지난 30년간 우수한 성과를 보였다. 지금은 데이터 공학과 기계 학습에 밀려 조금 약해진 추세이지만, 실제 활용성에 대한 포텐셜은 아직까지도 무궁무진하다고 생각한다. 또, 다른 방법론과도 결합해서 새로운 분야가 탄생될 수도 있다고 믿는다. 실제로도 ML에 메타휴리스틱을 적용하는 연구는 꾸준히 연구되고 있다. 당신이 AI나 DS, OR를 공부하고 있다면 메타휴리스틱에도 도전해 보는 것은 어떨까?</p>]]></content><author><name>Koptimizer</name></author><category term="explain" /><category term="Metaheuristic" /><summary type="html"><![CDATA[메타휴리스틱이란?]]></summary></entry></feed>

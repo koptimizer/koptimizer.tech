@@ -4,7 +4,7 @@ description: 'Exploration & Exploitation' # this means to ignore newlines until 
 permalink: ':title:output_ext'
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://koptimizer.tech" # the base hostname & protocol for your site, e.g. http://example.com
-logo: "/assets/img/branding/logo.png"
+logo: "/assets/img/branding/logo_day.png"
 logo-icon: "/assets/img/branding/MVM-symbol.svg"
 logo-icon-SEO: "/assets/img/branding/MVM-symbol=black.png" # must be a non SVG file
 
@@ -18,9 +18,9 @@ logo-icon-SEO: "/assets/img/branding/MVM-symbol=black.png" # must be a non SVG f
 # visit (session). Only the dark mode setting is "manual",
 # it will be always kept on every visit (i.e. no matter
 # the browser is closed or not)
-night_mode: "off"
+night_mode: "auto"
 
-logo-dark: "/assets/img/branding/MVM-logo-full-dark.svg"
+logo-dark: "/assets/img/branding/logo_night.png"
 highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
 
 # Author settings

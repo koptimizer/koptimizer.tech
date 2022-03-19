@@ -6,7 +6,19 @@
   "tag" : "Machine Learning",
   "posts" : [
       
-      "./wikipedea.html"
+      "./wikipedia.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "Metaheuristic",
+  "posts" : [
+      
+      "./particle_swarm_optimization.html",
+      
+      "./metaheuristics.html"
       
     ]
   } ,
@@ -16,7 +28,7 @@
   "tag" : "Paper Review",
   "posts" : [
       
-      "./wikipedea.html"
+      "./wikipedia.html"
       
     ]
   } ,
@@ -26,7 +38,7 @@
   "tag" : "Reinforcement Learning",
   "posts" : [
       
-      "./wikipedea.html"
+      "./wikipedia.html"
       
     ]
   } 

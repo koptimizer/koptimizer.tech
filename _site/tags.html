@@ -34,8 +34,8 @@
     "logo": {
         "@type": "ImageObject",
         "encodingFormat": "image/png",
-        "contentUrl": "http://localhost:4000",
-        "url": "http://localhost:4000"},
+        "contentUrl": "http://localhost:4000/assets/img/branding/MVM-symbol=black.png",
+        "url": "http://localhost:4000/assets/img/branding/MVM-symbol=black.png"},
     "name" : "Koptimizer.tech"}
 }
 </script>
@@ -57,7 +57,7 @@
 <meta itemprop="image" content="http://localhost:4000/assets/img">
 <!-- Twitter Card data -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="">
+<meta name="twitter:site" content="j_g_ok">
 <meta name="twitter:title" content="Tags">
 <meta name="twitter:description" content="">
 <meta name="twitter:creator" content="">
@@ -215,7 +215,7 @@
       </nav>
       
       
-      <div class="logo"><a href="./"><img class="logo" id="logo" src="/assets/img/branding/logo.png" alt="Koptimizer.tech"></a></div>
+      <div class="logo"><a href="./"><img class="logo" id="logo" src="./assets/img/branding/logo_day.png" alt="Koptimizer.tech"></a></div>
       <div class="search-icon-container">
         <span class="search-icon"><a><i class="fa fa-search" aria-hidden="true"></i></a></span>
       </div>
@@ -243,6 +243,9 @@
                 <li><a href="./tag.html?tag=Machine+Learning" class="tag">Machine Learning <span>(1)</span></a></li>
             
                 
+                <li><a href="./tag.html?tag=Metaheuristic" class="tag">Metaheuristic <span>(2)</span></a></li>
+            
+                
                 <li><a href="./tag.html?tag=Paper+Review" class="tag">Paper Review <span>(1)</span></a></li>
             
                 
@@ -261,7 +264,51 @@
       
 
         <div class="list-item">
-          <a href="./wikipedea.html">Paper Review - Can Wikipedia Help Offline Reinforcement Learning?</a>
+          <a href="./wikipedia.html">Paper Review - Can Wikipedia Help Offline Reinforcement Learning?</a>
+          
+
+  <span class = "post-card-meta">
+  
+  
+    <span class="meta-pre"></span>
+  
+  
+    
+      
+      <span class="page_meta-date">
+        <time datetime="2022-03-19T00:00:00+09:00">March 19, 2022</time>
+      </span>
+    
+    
+      <span class="meta-sep"></span>
+    
+  
+  
+    
+    
+    <span class="page_meta-readtime">
+      
+        1 minute read
+      
+    </span>
+  
+  
+  </span>
+
+        </div>
+      
+       </div>
+    </div>
+  
+    
+    <div class="list-group">
+      <div class="list-group-title"><a id="Metaheuristic">Metaheuristic</a></div>
+      <div>
+      
+      
+
+        <div class="list-item">
+          <a href="./particle_swarm_optimization.html">Particle Swarm Optimization</a>
           
 
   <span class = "post-card-meta">
@@ -294,18 +341,10 @@
 
         </div>
       
-       </div>
-    </div>
-  
-    
-    <div class="list-group">
-      <div class="list-group-title"><a id="Paper+Review">Paper Review</a></div>
-      <div>
-      
       
 
         <div class="list-item">
-          <a href="./wikipedea.html">Paper Review - Can Wikipedia Help Offline Reinforcement Learning?</a>
+          <a href="./metaheuristics.html">What is the metaheuristic?</a>
           
 
   <span class = "post-card-meta">
@@ -317,7 +356,51 @@
     
       
       <span class="page_meta-date">
-        <time datetime="2022-03-18T00:00:00+09:00">March 18, 2022</time>
+        <time datetime="2022-03-17T00:00:00+09:00">March 17, 2022</time>
+      </span>
+    
+    
+      <span class="meta-sep"></span>
+    
+  
+  
+    
+    
+    <span class="page_meta-readtime">
+      
+        4 minute read
+      
+    </span>
+  
+  
+  </span>
+
+        </div>
+      
+       </div>
+    </div>
+  
+    
+    <div class="list-group">
+      <div class="list-group-title"><a id="Paper+Review">Paper Review</a></div>
+      <div>
+      
+      
+
+        <div class="list-item">
+          <a href="./wikipedia.html">Paper Review - Can Wikipedia Help Offline Reinforcement Learning?</a>
+          
+
+  <span class = "post-card-meta">
+  
+  
+    <span class="meta-pre"></span>
+  
+  
+    
+      
+      <span class="page_meta-date">
+        <time datetime="2022-03-19T00:00:00+09:00">March 19, 2022</time>
       </span>
     
     
@@ -349,7 +432,7 @@
       
 
         <div class="list-item">
-          <a href="./wikipedea.html">Paper Review - Can Wikipedia Help Offline Reinforcement Learning?</a>
+          <a href="./wikipedia.html">Paper Review - Can Wikipedia Help Offline Reinforcement Learning?</a>
           
 
   <span class = "post-card-meta">
@@ -361,7 +444,7 @@
     
       
       <span class="page_meta-date">
-        <time datetime="2022-03-18T00:00:00+09:00">March 18, 2022</time>
+        <time datetime="2022-03-19T00:00:00+09:00">March 19, 2022</time>
       </span>
     
     
@@ -495,9 +578,9 @@
     saveThemeData(themeData);
     html.dataset.theme = nightShift ? 'dark' : 'light';
     if (nightShift) {
-        logo.setAttribute("src", "./assets/img/branding/MVM-logo-full-dark.svg");
+        logo.setAttribute("src", "./assets/img/branding/logo_night.png");
     } else {
-        logo.setAttribute("src", "./");
+        logo.setAttribute("src", "./assets/img/branding/logo_day.png");
     }
     setTimeout(function() {
         sw.checked = nightShift ? true : false;

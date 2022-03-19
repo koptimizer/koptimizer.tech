@@ -34,8 +34,8 @@
     "logo": {
         "@type": "ImageObject",
         "encodingFormat": "image/png",
-        "contentUrl": "http://localhost:4000",
-        "url": "http://localhost:4000"},
+        "contentUrl": "http://localhost:4000/assets/img/branding/MVM-symbol=black.png",
+        "url": "http://localhost:4000/assets/img/branding/MVM-symbol=black.png"},
     "name" : "Koptimizer.tech"}
 }
 </script>
@@ -57,7 +57,7 @@
 <meta itemprop="image" content="http://localhost:4000/assets/img">
 <!-- Twitter Card data -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="">
+<meta name="twitter:site" content="j_g_ok">
 <meta name="twitter:title" content="Koptimizer.tech">
 <meta name="twitter:description" content="">
 <meta name="twitter:creator" content="">
@@ -215,7 +215,7 @@
       </nav>
       
       
-      <div class="logo"><a href="./"><img class="logo" id="logo" src="/assets/img/branding/logo.png" alt="Koptimizer.tech"></a></div>
+      <div class="logo"><a href="./"><img class="logo" id="logo" src="./assets/img/branding/logo_day.png" alt="Koptimizer.tech"></a></div>
       <div class="search-icon-container">
         <span class="search-icon"><a><i class="fa fa-search" aria-hidden="true"></i></a></span>
       </div>
@@ -234,12 +234,12 @@
 
   <li>
     <div class="post-card">
-      <a href="./wikipedea.html" title="Paper Review - Can Wikipedia Help Offline Reinforcement Learning?" class="post-card-image" style="background: url('./assets/img/posts/20220318/main.png') center no-repeat; background-size: cover;">
+      <a href="./wikipedia.html" title="Paper Review - Can Wikipedia Help Offline Reinforcement Learning?" class="post-card-image" style="background: url('./assets/img/posts/20220319/main.png') center no-repeat; background-size: cover;">
       </a>
       <div class="post-card-body">
         <p class="post-card-title-and-meta">
           
-          <a href="./wikipedea.html" class="post-card-link">
+          <a href="./wikipedia.html" class="post-card-link">
           Paper Review - Can Wikipedia Help Offline Reinforcement Learning?
           </a>
           
@@ -256,6 +256,80 @@
     <span class="page_meta-readtime">
       
         1 minute read
+      
+    </span>
+  
+  
+  </span>
+
+        </p>
+      </div>
+    </div>
+  </li>
+  
+  
+
+  <li>
+    <div class="post-card">
+      <a href="./particle_swarm_optimization.html" title="Particle Swarm Optimization" class="post-card-image" style="background: url('./assets/img/posts/20220318/main.jpg') center no-repeat; background-size: cover;">
+      </a>
+      <div class="post-card-body">
+        <p class="post-card-title-and-meta">
+          
+          <a href="./particle_swarm_optimization.html" class="post-card-link">
+          Particle Swarm Optimization
+          </a>
+          
+
+  <span class = "post-card-meta">
+  
+  
+    <span class="meta-pre"></span>
+  
+  
+  
+    
+    
+    <span class="page_meta-readtime">
+      
+        1 minute read
+      
+    </span>
+  
+  
+  </span>
+
+        </p>
+      </div>
+    </div>
+  </li>
+  
+  
+
+  <li>
+    <div class="post-card">
+      <a href="./metaheuristics.html" title="What is the metaheuristic?" class="post-card-image" style="background: url('./assets/img/posts/20220317/main.png') center no-repeat; background-size: cover;">
+      </a>
+      <div class="post-card-body">
+        <p class="post-card-title-and-meta">
+          
+          <a href="./metaheuristics.html" class="post-card-link">
+          What is the metaheuristic?
+          </a>
+          
+
+  <span class = "post-card-meta">
+  
+  
+    <span class="meta-pre"></span>
+  
+  
+  
+    
+    
+    <span class="page_meta-readtime">
+      
+        4 minute read
       
     </span>
   
@@ -303,6 +377,9 @@
             
                 
                 <li><a href="./tag.html?tag=Machine+Learning" class="tag">Machine Learning <span>(1)</span></a></li>
+            
+                
+                <li><a href="./tag.html?tag=Metaheuristic" class="tag">Metaheuristic <span>(2)</span></a></li>
             
                 
                 <li><a href="./tag.html?tag=Paper+Review" class="tag">Paper Review <span>(1)</span></a></li>
@@ -399,9 +476,9 @@
     saveThemeData(themeData);
     html.dataset.theme = nightShift ? 'dark' : 'light';
     if (nightShift) {
-        logo.setAttribute("src", "./assets/img/branding/MVM-logo-full-dark.svg");
+        logo.setAttribute("src", "./assets/img/branding/logo_night.png");
     } else {
-        logo.setAttribute("src", "./");
+        logo.setAttribute("src", "./assets/img/branding/logo_day.png");
     }
     setTimeout(function() {
         sw.checked = nightShift ? true : false;
