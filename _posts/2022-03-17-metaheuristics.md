@@ -10,6 +10,7 @@ category: explain
 author: Koptimizer
 description: "메타휴리스틱이란?"
 mathjax: yes
+comments: true
 ---
 메타휴리스틱(metaheuristics)은 최적화 방법론의 일종이며, 휴리스틱의 하위 분과이다. 메타휴리스틱의 상위 개념인 휴리스틱에 대해 먼저 알아보자면, 휴리스틱이란 다음과 같이 이야기할 수 있다.
 <tweet>불충분한 정보, 시간에 의해 합리적인 판단을 할 수 없거나, 체계적인 판단이 굳이 필요하지 않은 상황에서 기존의 경험과 직관을 이용해 만족할 만한 결과를 빠르게 탐색하는 어림짐작의 방법</tweet>
