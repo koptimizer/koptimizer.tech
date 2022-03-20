@@ -43,7 +43,7 @@ mailchimp: "https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6
 
 # Disqus
 discus_identifier: koptimizer-tech # Add your discus identifier
-comments_curtain: yes # leave empty to show the disqus embed directly
+comments_curtain: # leave empty to show the disqus embed directly
 
 # Tracker
 analytics: G-R8SZS2YBZK
